@@ -61,6 +61,6 @@ This system helps in detecting adulteration in herbal products using low-cost Io
 
 ##  Developed By
 
-Pranavi Veeramallu
-Hrithika Gundeti
+Pranavi Veeramallu,
+Hrithika Gundeti,
 Tejasvi Pothanaboina 

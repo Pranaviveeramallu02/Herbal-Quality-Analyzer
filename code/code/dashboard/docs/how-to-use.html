@@ -1,1 +1,61 @@
+<!DOCTYPE html>
 
+<html>
+<head>
+<title>How to Use</title>
+<style>
+body { font-family: Arial; padding: 20px; }
+h1 { color: green; }
+</style>
+</head>
+<body>
+
+<h1>Herbal Adulteration Detection - Guide</h1>
+
+<h2>Step 1: Setup Hardware</h2>
+<ul>
+<li>Connect ESP32</li>
+<li>Connect RGB sensor, MQ135, DHT11</li>
+</ul>
+
+<h2>Step 2: Upload Code</h2>
+<ul>
+<li>Open Arduino IDE</li>
+<li>Select board as ESP32 Dev Module</li>
+<li>Select Port as usbserial-0001 </li>
+<li>Upload code</li>
+<li>Change bruad rate to 115200 in Serial Monitor</li>
+</ul>
+
+<h2>Step 3: Connect WiFi</h2>
+<ul>
+<li>Enter SSID and Password</li>
+<li>Enter channelID and WriteAPI key from the ThingSpeak cloud</li>
+</ul>
+
+<h2>Step 4: ThingSpeak Setup</h2>
+<ul>
+<li>Create account and login</li>
+<li>Create channel and add channel name as herb</li>
+<li>Add 8 fields such as:</li>
+    <li>Red Value</li>
+    <li>Green Value</li>
+    <li>Blue Value</li>
+    <li>Gas Value</li>
+    <li>Temperature </li>
+    <li>Humidity</li>
+    <li>G/R ratio</li>
+    <li>Result</li>
+<li>Make the channel as public view</li>
+
+</ul>
+
+<h2>Step 5: View Dashboard</h2>
+<ul>
+<li>Open dashboard HTML file</li>
+<li>Copy the Read API key from ThingSpeak cloud and paste it in the HTMLcode</li>
+<li>See live graphs and result</li>
+</ul>
+
+</body>
+</html>
